@@ -1,4 +1,6 @@
 <?php
+use App\Admin\Widgets\CategoriesWidget;
+use App\Admin\Widgets\ProductsWidget;
 
 return [
     /*
@@ -144,6 +146,8 @@ return [
         ],
 
         'widgets' => [
+            CategoriesWidget::class,
+            ProductsWidget::class
 
         ],
 
